@@ -1,0 +1,28 @@
+{
+  "name": "pokersolver",
+  "description": "Javascript poker hand solver.",
+  "homepage": "",
+  "keywords": [
+    "poker",
+    "poker-hand",
+    "holdem",
+    "poker-evaluator"
+  ],
+  "author": "Sahil",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sahil15/pokersolver"
+  },
+  "main": "pokersolver.js",
+  "version": "2.1.4",
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "engines": [
+    "node >= 4.0.0"
+  ]
+}
